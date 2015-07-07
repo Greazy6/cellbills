@@ -35,7 +35,9 @@ public class CellBills {
         
         System.out.println("Here is another sampling of cell Bills " + cellBills[4]);
         
-        
+        for (int i =0; i < cellBills.length; i++){
+            System.out.println("Here is the list of info print from a for loop " + cellBills[i]);
+        }
         
         
     }
