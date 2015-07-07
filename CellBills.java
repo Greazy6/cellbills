@@ -24,6 +24,15 @@ public class CellBills {
         cellBills[4] = 65.29;
         cellBills[5] = 49.75;
         
+        double [] electricBills = new double[6];
+        
+        electricBills[0] = 24.69;
+        electricBills[1] = 42.49;
+        electricBills[2] = 72.89;
+        electricBills[3] = 12.69;
+        electricBills[4] = 32.99;
+        electricBills[5] = 77.36;
+        
         System.out.println("Here is a list of all the bills " + cellBills[0] + " " + cellBills[1] + " " + cellBills[2] + " " + cellBills[3] + " " + cellBills[4] + " " + cellBills[5] );
         
         
@@ -39,6 +48,20 @@ public class CellBills {
             System.out.println("Here is the list of info print from a for loop " + cellBills[i]);
         }
         
+        System.out.println("Now lets try electric bills ");
+        
+        System.out.println("First Months Bill in the array " + electricBills[0]);
+        
+        System.out.println("Now lets try the last months bill in the array " + electricBills[electricBills.length - 1]);
+        
+        for (int i = 0; i < electricBills.length; i++){
+            System.out.println("Here is the list of the electric bills fun thru a for loop " + electricBills[i]);
+        }
+        
+        
+        System.out.println("Lets try both bills first in each of the arrays " + cellBills[0] + " " + electricBills[0]);
+        
+        System.out.println("Now lets try the last item in each array " + cellBill[cellBills]);
         
     }
     
