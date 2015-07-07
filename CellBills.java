@@ -24,11 +24,17 @@ public class CellBills {
         cellBills[4] = 65.29;
         cellBills[5] = 49.75;
         
+        System.out.println("Here is a list of all the bills " + cellBills[0] + " " + cellBills[1] + " " + cellBills[2] + " " + cellBills[3] + " " + cellBills[4] + " " + cellBills[5] );
+        
+        
         System.out.println("The first montly bill is " + cellBills[0]);
         
         System.out.println("The last monthly cell bill is " + cellBills[cellBills.length - 1]);
         
         System.out.println("A random sampling of cell bills " + cellBills[1] + " and " + cellBills[3]);
+        
+        System.out.println("Here is another sampling of cell Bills " + cellBills[4]);
+        
         
         
         
