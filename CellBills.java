@@ -61,7 +61,8 @@ public class CellBills {
         
         System.out.println("Lets try both bills first in each of the arrays " + cellBills[0] + " " + electricBills[0]);
         
-        System.out.println("Now lets try the last item in each array " + cellBill[cellBills]);
+        System.out.println("Now lets try the last item in each array " + cellBills[cellBills.length - 1] + " " + electricBills[electricBills.length - 1]);
+        
         
     }
     
