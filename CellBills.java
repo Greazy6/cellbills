@@ -5,10 +5,7 @@
  */
 package cellbills;
 
-/**
- *
- * @author ericgreise
- */
+
 public class CellBills {
 
     /**
